@@ -1,0 +1,123 @@
+/* .navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 5px;
+}
+
+.search-bar input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.cart-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon-container img {
+  margin-right: 5px;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: none;
+  content: "☰"; /* Simple hamburger icon */
+  /* font-size: 24px;
+  color: white;
+  line-height: 1.5;} */
+
+
+
+/* Default Styles for Desktop (Laptop and larger) */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 5px;
+}
+
+.search-bar input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.cart-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon-container img {
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: none;
+  content: "☰"; /* Simple hamburger icon */
+  font-size: 24px;
+  color: white;
+  line-height: 1.5;
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .search-bar input {
+    width: 80%; /* Adjust width for smaller screens */
+    font-size: 0.9rem;
+  }
+
+  .cart-icon-container img {
+    width: 20px;
+    height: 20px; /* Adjust icon size */
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    font-size: 22px; /* Slightly smaller icon */
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 1rem; /* Further reduce font size */
+    margin-top: 2px; /* Adjust spacing */
+  }
+
+  .search-bar input {
+    width: 100%; /* Full-width search bar */
+    padding: 4px; /* Reduce padding */
+    font-size: 0.8rem;
+  }
+
+  .cart-icon-container {
+    justify-content: flex-end; /* Align to the right */
+  }
+
+  .cart-icon-container img {
+    width: 18px;
+    height: 18px; /* Smaller icon for mobile */
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    font-size: 20px; /* Compact icon size */
+  }
+}

@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+/* Container Styling */
+.carousel-container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 15px; /* Adds some padding for mobile screens */
+}
+
+/* Responsive Images */
+.carousel-item img {
+  object-fit: cover; /* Ensures images scale without distortion */
+  height: auto; /* Maintains aspect ratio */
+  width: 100%; /* Stretches to container width */
+  max-height: 500px; /* Default max height for larger screens */
+  border-radius: 10px; /* Rounded corners for a modern look */
+}
+
+/* Caption Styling */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.carousel-caption h3 {
+  font-size: 1.5rem; /* Default font size */
+  color: #fff;
+  margin: 0;
+}
+
+.carousel-caption p {
+  font-size: 1rem; /* Default paragraph size */
+  color: #ddd;
+  margin-top: 5px;
+}
+
+/* Responsive Design */
+
+/* Small Devices (up to 576px) */
+@media (max-width: 576px) {
+  .carousel-item img {
+    max-height: 300px; /* Reduce height for small screens */
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.2rem; /* Smaller heading */
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem; /* Compact paragraph text */
+  }
+}
+
+/* Medium Devices (up to 768px) */
+@media (max-width: 768px) {
+  .carousel-item img {
+    max-height: 400px; /* Medium-height images */
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.4rem; /* Adjust heading size */
+  }
+
+  .carousel-caption p {
+    font-size: 1rem; /* Keep paragraph text readable */
+  }
+}
+
+/* Large Devices (up to 992px) */
+@media (max-width: 992px) {
+  .carousel-item img {
+    max-height: 450px; /* Slightly larger for tablets */
+  }
+
+  .carousel-caption {
+    padding: 20px; /* Add more spacing for captions */
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.5rem; /* Retain heading size */
+  }
+}
+
+/* Extra-large Devices (1200px and above) */
+@media (min-width: 1200px) {
+  .carousel-item img {
+    max-height: 600px; /* Allow larger images for wide screens */
+  }
+
+  .carousel-caption {
+    padding: 25px; /* Extra spacing for large captions */
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.8rem; /* Larger headings */
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem; /* Enhanced readability */
+  }
+}
+
