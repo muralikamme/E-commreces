@@ -23,7 +23,7 @@ import Womensingle from './stores/singles/Womensingle';
 import Watchsingle from './stores/singles/Watchsingle';
 import Mensingle from './stores/singles/Mensingle';
 import Furnituresingle from './stores/singles/Furnituresingle';
-import Fridgesingle from './stores/singles/Fridgesingle';
+import Fridgesingle from './stores/singles/fridgesingle';
 import Computersingle from './stores/singles/Computersingle';
 import Tvsingle from './stores/singles/Tvsingle';
 import Acsingle from './stores/singles/Acsingle';
