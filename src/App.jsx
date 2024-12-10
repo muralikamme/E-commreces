@@ -10,7 +10,7 @@ import Womenpage from './stores/pages/Womenpage'
 import Watchspage from './stores/pages/Watchspage';
 import Furniturepage from './stores/pages/Furniturepage';
 import Kitchenpage from './stores/pages/Kitchenpage';
-import Fridgepage from './stores/pages/kkkkkk';
+import Fridgepage from './stores/pages/Pridgepage';
 
 import Tvpage from './stores/pages/Tvpage';
 import Speakerpage from './stores/pages/Speakerpage';
