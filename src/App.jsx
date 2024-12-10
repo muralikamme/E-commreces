@@ -14,7 +14,7 @@ import Fridgepage from './stores/pages/fridgepage';
 
 import Tvpage from './stores/pages/Tvpage';
 import Speakerpage from './stores/pages/Speakerpage';
-import Fridgepage from './stores/pages/fridgepage'
+
 
 
 import Bookspage from './stores/pages/Bookspage';
