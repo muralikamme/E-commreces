@@ -5,11 +5,13 @@ import {Routes,Route} from 'react-router-dom'
 import Mobilepage from './stores/pages/Mobilepage'
 import Computerpage from './stores/pages/Computerpage';
 import Menpage from './stores/pages/Menpage';
+// hii
 import Womenpage from './stores/pages/Womenpage'
 import Watchspage from './stores/pages/Watchspage';
 import Furniturepage from './stores/pages/Furniturepage';
 import Kitchenpage from './stores/pages/Kitchenpage';
 import Fridgepage from './stores/pages/fridgepage';
+
 import Tvpage from './stores/pages/Tvpage';
 import Speakerpage from './stores/pages/Speakerpage';
 import Bookspage from './stores/pages/Bookspage';
