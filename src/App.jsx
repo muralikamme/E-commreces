@@ -4,7 +4,7 @@ import LandingPages from './stores/pages/LandingPages';
 import {Routes,Route} from 'react-router-dom'
 import Mobilepage from './stores/pages/Mobilepage'
 import Computerpage from './stores/pages/Computerpage';
-import Menpage from './stores/pages/menpage';
+import Menpage from './stores/pages/Menpage';
 import Womenpage from './stores/pages/Womenpage'
 import Watchspage from './stores/pages/Watchspage';
 import Furniturepage from './stores/pages/Furniturepage';
