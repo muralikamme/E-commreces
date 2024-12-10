@@ -37,7 +37,7 @@ import Kitchensingle from './stores/singles/Kitchensingle';
 
 
 import UserCart from './stores/UserCart';
-import Loginpage from './stores/componets/Loginpage';
+import Loginpage from "./stores/componets/LoginPage";
 import Registerpage from './stores/componets/RegisterPage';
 
 
