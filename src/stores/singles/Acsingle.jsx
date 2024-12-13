@@ -72,6 +72,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Nava from '../componets/nav';
 import { acData } from '../data/ac';
 import { Usecart } from '../contex/Usecontex';
+import "./single.css"
 
 const Acsingle = () => {
   const { id } = useParams();
@@ -95,8 +96,8 @@ const Acsingle = () => {
   return (
     <>
       <Nava />
-      <div className='Singlepage'>
-        <Card style={{ width: '18rem' }}>
+      <div className='Singlepage' >
+        <Card style={{ width: '50%'}}>
           <Card.Img 
             variant="bottom" 
             src={pro.image}   

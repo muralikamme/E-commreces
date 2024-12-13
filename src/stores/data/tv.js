@@ -1,7 +1,7 @@
 export const tvData = [{
         "id": "1",
         "product": "TV",
-        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743262/7_cweryi.jpg",
+        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743243/4_gfsrcm.jpg",
         "brand": "LG",
         "model": "OLED CX Series",
         "price": "1999.00",

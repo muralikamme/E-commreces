@@ -246,7 +246,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Usecart } from "../contex/Usecontex"; // Context to handle registration
 import { Link } from "react-router-dom"; // Import Link for internal navigation
-import "./Register.css"; // Your custom styles
+import "./register.css"; // Your custom styles
 
 const RegisterPage = () => {
   const [email, setEmail] = useState("");
