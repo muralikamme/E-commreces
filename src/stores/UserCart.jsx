@@ -1,17 +1,27 @@
 
 
 import React from 'react';
-import { Usecart } from "../stores/contex/Usecontex";
+import { Usecart} from "../stores/contex/Usecontex";
 import Nava from "./componets/nav";
 import "./UserCart.css";
+import { useNavigate } from 'react-router-dom';
+
+
 
 const UserCart = () => {
     const { cartitem, RemoveCart } = Usecart();
+   
+   
 
     const handleBuyNow = (item) => {
         // Add logic for "Buy Now", such as redirecting to a payment page
-        alert(`Proceeding to buy: ${item.product}`);
+        alert(`your Order is confirm: ${item.product}`);
+        
+        
+   
+
     };
+  
 
     return (
         <>

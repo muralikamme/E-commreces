@@ -10,15 +10,26 @@ import {Usecart} from '../contex/Usecontex';
 const Speakersingle = () => {
 
     var  {id}=useParams()
+    const { AddtoCart, currentUser } = Usecart(); // Access cart and current user state
 
-   let  {AddtoCart}=Usecart()
-    console.log(id)
-
-     //alert msg 
-     const handleAddToCart = (item) => {
-      AddtoCart(item); // Call the AddtoCart method to add the item
-      alert(`${item.product} has been added to your cart!`); // Show alert after adding
+  const handleAddToCart = (item) => {
+    if (!currentUser) {
+      alert("Please login to add items to your cart.");
+      navigate("/login"); // Redirect to login page if not logged in
+    } else {
+      AddtoCart(item); // Add to cart if user is logged in
+      alert(`${item.product} has been added to your cart!`);
+    }
   };
+
+  //  let  {AddtoCart}=Usecart()
+  //   console.log(id)
+
+  //    //alert msg 
+  //    const handleAddToCart = (item) => {
+  //     AddtoCart(item); // Call the AddtoCart method to add the item
+  //     alert(`${item.product} has been added to your cart!`); // Show alert after adding
+  // };
 
   
     const cleanId = id.replace(":", "");
@@ -39,7 +50,7 @@ const Speakersingle = () => {
           {pro.description}
         </Card.Text>
         <Card.Footer>
-         Price:{pro.price}$
+         Price:₹{pro.price}
 
         </Card.Footer>
         <Button variant="primary" onClick={() => handleAddToCart(pro)}>

@@ -46,7 +46,7 @@ const Bookspage = () => {
         <div className="PageSection">
           {filteredBooks.length > 0 ? (
             filteredBooks.map((item) => (
-              <Link to={`/Books/${item.id}`} key={item.id} className="Pageimg">
+              <Link to={`/Books/${item.id}`} key={item.id} className="Pageimg" style={{ textDecoration: 'none' }}>
                 <img
                   src={item.image}
                   alt={`${item.author} ${item.title}`}

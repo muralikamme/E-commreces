@@ -10,7 +10,8 @@ import { Usecart } from '../contex/Usecontex';
 
 const Mensingle = () => {
     const { id } = useParams();
-    const { AddtoCart } = Usecart();
+    // const { AddtoCart } = Usecart();
+    const { AddtoCart, currentUser } = Usecart(); 
 
     const cleanId = id.replace(":", "");
 
@@ -18,9 +19,20 @@ const Mensingle = () => {
     console.log(pro);
 
     const handleAddToCart = (item) => {
-        AddtoCart(item); // Call the AddtoCart method to add the item
-        alert(`${item.product} has been added to your cart!`); // Show alert after adding
-    };
+        if (!currentUser) {
+          alert("Please login to add items to your cart.");
+          navigate("/login"); // Redirect to login page if not logged in
+        } else {
+          AddtoCart(item); // Add to cart if user is logged in
+          alert(`${item.product} has been added to your cart!`);
+        }
+      };
+      
+
+    // const handleAddToCart = (item) => {
+    //     AddtoCart(item); // Call the AddtoCart method to add the item
+    //     alert(`${item.product} has been added to your cart!`); // Show alert after adding
+    // };
 
     return (
         <>
@@ -34,7 +46,7 @@ const Mensingle = () => {
                             {pro.description}
                         </Card.Text>
                         <Card.Footer>
-                            Price: {pro.price}$
+                            Price:₹{pro.price}
                         </Card.Footer>
                         <Button variant="primary" onClick={() => handleAddToCart(pro)}>
                             Add to Cart

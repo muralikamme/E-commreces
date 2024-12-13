@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./App.css";
 import LandingPages from './stores/pages/LandingPages';
 import {Routes,Route} from 'react-router-dom'
@@ -37,14 +37,23 @@ import Kitchensingle from './stores/singles/Kitchensingle';
 
 
 import UserCart from './stores/UserCart';
-import Loginpage from "./stores/componets/LoginPage";
-import Registerpage from './stores/componets/RegisterPage';
+
+
 
 
 // Not found
 import NotFound from "./stores/componets/NotFound";
 
 import { SearchProvider } from './stores/componets/SearchContext';
+
+
+import LoginPage from './stores/componets/Loginpage';
+import RegisterPage from './stores/componets/RegisterPage';
+
+
+import PrivateRoute from './stores/componets/PrivateRoute';
+
+
 
 
 
@@ -62,19 +71,24 @@ import { SearchProvider } from './stores/componets/SearchContext';
 const App = () => {
 
   
+
+  
   return (
     <SearchProvider >
     <div>
      
       <Routes>
+      
     
         {/* home page */}
        {/* <Route path='/login'element={<Login/>}/> */}
        <Route path='/*' element={<NotFound/>}/>
-        <Route path="/home" element={<LandingPages/>}/>
+        {/* <Route path="/home" element={<LandingPages/>}/> */}
+        <Route path="/" element={<LandingPages />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
      
-      <Route path="/" element={<Loginpage/>}/>
-      <Route path="/register" element={<Registerpage/>}/>
+        {/* <PrivateRoute path="/cart" element={<UserCart />} /> */}
 
       
         {/* products pages */}
@@ -105,11 +119,6 @@ const App = () => {
         <Route path="/Speakers/:id" element={<Speakersingle/>}/>
         <Route path="/Books/:id" element={<Booksingle/>}/>
         <Route path="/Ac/:id" element={<Acsingle/>}/>
-       
-
-       
-  
-       
 
       </Routes>
      
@@ -121,3 +130,5 @@ const App = () => {
 }
 
 export default App
+
+

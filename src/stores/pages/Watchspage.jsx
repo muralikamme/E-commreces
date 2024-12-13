@@ -50,11 +50,12 @@ const Watchspage = () => {
         <div className="PageSection">
           {filteredComp.length > 0 ? (
             filteredComp.map((item) => (
-              <Link to={`/Watches/${item.id}`} key={item.id} className="Pageimg">
+              <Link to={`/Watches/${item.id}`} key={item.id} className="Pageimg"  style={{ textDecoration: 'none' }}>
                 <img
                   src={item.image}
                   alt={`${item.brand} ${item.model}`}
                   className="product-image"
+                 
                 />
                 <div className="promodel">
                   {item.company} {item.model}

@@ -53,6 +53,7 @@ const Kitchenpage = () => {
                 to={`/Kitchen/${item.id}`}
                 key={item.id}
                 className="Pageimg"
+                style={{ textDecoration: 'none' }}
               >
                 <img
                   src={item.image}
