@@ -47,7 +47,7 @@ import NotFound from "./stores/componets/NotFound";
 import { SearchProvider } from './stores/componets/SearchContext';
 
 
-import LoginPage from './stores/componets/Loginpage';
+import LoginPage from './stores/componets/loginp';
 import RegisterPage from './stores/componets/RegisterPage';
 
 
