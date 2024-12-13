@@ -4,6 +4,7 @@ import { watchData } from "../data/watch"; // Import Watch data
 import Card from "react-bootstrap/Card";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { useSearch } from "./SearchContext"; // Import SearchContext for search functionality
+import "./componet.css"
 
 const Watch = () => {
   const { searchQuery } = useSearch(); // Access global search query
@@ -23,7 +24,7 @@ const Watch = () => {
 
       <div className="ProSection">
         {filteredWatches.map((item, index) => (
-          <Card style={{ width: "16rem" }} className="card card-spacing" key={index}>
+          <Card style={{ width: "14rem" }} className="card card-spacing" key={index}>
             <Card.Img
               variant="top"
               src={item.image}
@@ -34,7 +35,7 @@ const Watch = () => {
               <Card.Title>{item.brand}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
               <Card.Text>
-                <strong>Price:</strong> {item.price} <FaIndianRupeeSign />
+                <strong>Price:</strong> <FaIndianRupeeSign />{item.price} 
               </Card.Text>
             </Card.Body>
           </Card>

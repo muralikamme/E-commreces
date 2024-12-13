@@ -68,6 +68,7 @@ import PrivateRoute from './stores/componets/PrivateRoute';
 
 
 
+
 const App = () => {
 
   
@@ -75,7 +76,7 @@ const App = () => {
   
   return (
     <SearchProvider >
-    <div>
+    <div style={{width:"100%"}}>
      
       <Routes>
       
@@ -87,6 +88,7 @@ const App = () => {
         <Route path="/" element={<LandingPages />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
+       
      
         {/* <PrivateRoute path="/cart" element={<UserCart />} /> */}
 

@@ -1,0 +1,189 @@
+/* Global Reset and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    font-size: 16px;
+  }
+  
+  /* ProTittle Styling */
+  .ProTittle {
+    text-align: center;
+    font-size: 2.5rem; /* Default font size */
+    margin: 30px 0; /* Default margin */
+    color: #060606;
+    background-color: #fefefe;
+    box-shadow: 2px 3px 4px solid white;
+    padding: 15px 0; /* Default padding */
+  }
+  
+  /* Main Section Styling */
+  .ProSection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Default: 5 items per row */
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    
+  }
+  
+  /* Card Styling */
+  .card-spacing {
+    /* width: 200%; */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    min-height: auto;
+
+
+  }
+  
+  .card-spacing:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .card-text strong {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* No products found message */
+  p {
+    color: #666;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablet Layout (<= 1024px) */
+  @media (max-width: 1024px) {
+    .ProTittle {
+      font-size: 2rem; /* Adjust font size for tablets */
+      margin: 20px 0; /* Adjust margin for tablets */
+      padding: 12px 0; /* Adjust padding for tablets */
+    }
+  
+    .ProSection {
+      grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    }
+  
+    .card-spacing {
+      padding: 12px;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  
+    .card-body .price {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Mobile Layout (<= 768px) */
+  @media (max-width: 768px) {
+    .ProTittle {
+      font-size: 1.8rem; /* Adjust font size for mobile */
+      margin: 15px 0; /* Adjust margin for mobile */
+      padding: 10px 0; /* Adjust padding for mobile */
+    }
+  
+    .ProSection {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+      justify-items: center; /* Center the cards horizontally */
+      align-items: center; /* Center the cards vertically */
+    }
+  
+    .card-spacing {
+      padding: 10px;
+      width: 90%;
+      max-width: 350px;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  
+    .card-body .price {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Small Mobile Layout (<= 480px) */
+  @media (max-width: 480px) {
+    .ProTittle {
+      font-size: 1.5rem; /* Smaller font size for very small screens */
+      margin-bottom: 20px; /* Adjust margin for small mobile */
+      padding: 8px 0; /* Adjust padding for small mobile */
+    }
+  
+    .ProSection {
+      grid-template-columns: 1fr; /* 1 card per row */
+      justify-items: center; /* Center the card horizontally */
+      align-items: center; /* Center the card vertically */
+    }
+  
+    .card-spacing {
+      padding: 10px;
+      width: 90%;
+      max-width: 300px; /* Limit width for small mobile */
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  
+    .card-body .price {
+      font-size: 0.8rem;
+    }
+  }
+  

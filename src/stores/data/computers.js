@@ -1,7 +1,7 @@
 export const computerData = [{
         "id": "1",
         "product": "Computer",
-        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742992/1_rpun6b.jpg",
+        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742964/16_usbhil.jpg",
         "company": "Dell",
         "model": "Inspiron 15",
         "price": "899.99",
@@ -21,12 +21,12 @@ export const computerData = [{
     {
         "id": "3",
         "product": "Computer",
-        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742988/2_lvu0uf.jpg",
+        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742975/10_h9y6yc.jpg",
         "company": "Apple",
         "model": "MacBook Air",
         "price": "1199.00",
         "category": "Electronics",
-        "description": "An ultrathin and lightweight laptop known for its portability and smooth performance."
+        "description": "An ultrathin and lightweight laptop known for its portability ."
     },
     {
         "id": "4",
@@ -36,7 +36,7 @@ export const computerData = [{
         "model": "IdeaPad Flex",
         "price": "799.50",
         "category": "Electronics",
-        "description": "A flexible 2-in-1 laptop with touchscreen capabilities and powerful processing."
+        "description": "A flexible 2-in-1 laptop with touchscreen capabilities ."
     },
     {
         "id": "5",
@@ -46,7 +46,7 @@ export const computerData = [{
         "model": "Predator Helios 300",
         "price": "1299.00",
         "category": "Electronics",
-        "description": "A gaming laptop with high-performance graphics and advanced cooling technology."
+        "description": "A gaming laptop with high-performance graphics ."
     },
     {
         "id": "6",

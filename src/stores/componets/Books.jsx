@@ -6,6 +6,8 @@ import { booksData } from "../data/books"; // Import book data
 import Card from "react-bootstrap/Card";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { useSearch } from "./SearchContext"; // Import SearchContext for global search functionality
+// import "../../App.css"
+import "./componet.css"
 
 const Books = () => {
   const { searchQuery } = useSearch(); // Access the global search query
@@ -22,13 +24,13 @@ const Books = () => {
 
       <div className="ProSection">
         {filteredBooks.map((item, index) => (
-          <Card style={{ width: "16rem" }} className="card card-spacing" key={index}>
+          <Card style={{ width: "14rem" }} className="card card-spacing" key={index}>
             <Card.Img variant="top" src={item.image} className="img" alt={item.description} />
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
               <Card.Text>
-                <strong>Price:</strong> {item.price} <FaIndianRupeeSign />
+                <strong>Price:</strong> <FaIndianRupeeSign />{item.price} 
               </Card.Text>
             </Card.Body>
           </Card>

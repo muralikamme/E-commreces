@@ -6,6 +6,7 @@ import { tvData } from "../data/tv"; // Import TV data
 import Card from "react-bootstrap/Card";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { useSearch } from "./SearchContext"; // Import SearchContext for search functionality
+import "./componet.css"
 
 const Tv = () => {
   const { searchQuery } = useSearch(); // Access global search query
@@ -25,7 +26,7 @@ const Tv = () => {
 
       <div className="ProSection">
         {filteredTvs.map((item, index) => (
-          <Card style={{ width: "16rem" }} className="card card-spacing" key={index}>
+          <Card style={{ width: "14rem" }} className="card card-spacing" key={index}>
             <Card.Img
               variant="top"
               src={item.image}
@@ -36,7 +37,7 @@ const Tv = () => {
               <Card.Title>{item.brand}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
               <Card.Text>
-                <strong>Price:</strong> {item.price} <FaIndianRupeeSign />
+                <strong>Price:</strong> <FaIndianRupeeSign />{item.price} 
               </Card.Text>
             </Card.Body>
           </Card>

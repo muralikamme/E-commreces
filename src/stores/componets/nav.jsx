@@ -276,7 +276,7 @@ function Nava() {
       <Navbar bg="secondary" expand="lg" variant="dark" >
         <Container>
           <Navbar.Brand>
-            <Link to="/" className="navbar-brand">
+            <Link to="/" className="navbar-brand" style={{textDecoration:"none"}}>
               <IoHome style={{ color: "white", marginRight: "8px" }} />
               ShopSphere
             </Link>
@@ -303,41 +303,41 @@ function Nava() {
               </div>
 
               {/* Submenu Links */}
-              <NavDropdown title="Categories" id="basic-nav-dropdown">
-                <NavDropdown.Item as={Link} to="/Mobiles">
+              <NavDropdown title="Categories" id="basic-nav-dropdown" >
+                <NavDropdown.Item as={Link} to="/Mobiles" style={{textDecoration:"none"}}>
                   Mobiles
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Computers">
+                <NavDropdown.Item as={Link} to="/Computers" style={{textDecoration:"none"}}>
                   Computers
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/MenFashion">
+                <NavDropdown.Item as={Link} to="/MenFashion" style={{textDecoration:"none"}}>
                   Men Fashion
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/WomenFashion">
+                <NavDropdown.Item as={Link} to="/WomenFashion" style={{textDecoration:"none"}}>
                   Women Fashion
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Watchs">
+                <NavDropdown.Item as={Link} to="/Watchs" style={{textDecoration:"none"}}>
                   Watches
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Furniture">
+                <NavDropdown.Item as={Link} to="/Furniture" style={{textDecoration:"none"}}>
                   Furniture
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Kitchen">
+                <NavDropdown.Item as={Link} to="/Kitchen" style={{textDecoration:"none"}}>
                   Kitchen
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Fridges">
+                <NavDropdown.Item as={Link} to="/Fridges" style={{textDecoration:"none"}}>
                   Fridges
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Tv's">
+                <NavDropdown.Item as={Link} to="/Tv's" style={{textDecoration:"none"}}>
                   TVs
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Speakers">
+                <NavDropdown.Item as={Link} to="/Speakers" style={{textDecoration:"none"}}>
                   Speakers
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Books">
+                <NavDropdown.Item as={Link} to="/Books" style={{textDecoration:"none"}}>
                   Books
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Ac's">
+                <NavDropdown.Item as={Link} to="/Ac's" style={{textDecoration:"none"}}>
                   ACs
                 </NavDropdown.Item>
               </NavDropdown>
@@ -347,7 +347,7 @@ function Nava() {
 
             {/* Cart Section */}
             <Nav>
-              <Nav.Link as={Link} to="/cart" className="cart-link">
+              <Nav.Link as={Link} to="/cart" className="cart-link" style={{textDecoration:"none"}}>
                 <div
                   className="cart-icon-container"
                   style={{ display: "flex", alignItems: "center" }}
@@ -363,9 +363,9 @@ function Nava() {
 
               {/* Conditional rendering for login/logout */}
               {currentUser ? (
-                <Button variant="outline-light" onClick={() => logout()}>Logout</Button>
+                <Button variant="outline-light" onClick={() => logout()}  style={{textDecoration:"none"}}>Logout</Button>
               ) : (
-                <Button variant="outline-light" as={Link} to="/login">Login</Button>
+                <Button variant="outline-light" as={Link} to="/login"  style={{textDecoration:"none"}}>Login</Button>
               )}
             </Nav>
           </Navbar.Collapse>

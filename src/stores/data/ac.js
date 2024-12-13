@@ -51,7 +51,7 @@ export const acData = [{
     {
         "id": "6",
         "product": "Smart AC",
-        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742818/5_tmaghq.jpg",
+        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742823/6_goxpzi.jpg",
         "company": "Nest",
         "model": "EcoCool Smart+",
         "price": "899.99",
@@ -71,7 +71,7 @@ export const acData = [{
     {
         "id": "8",
         "product": "Portable AC",
-        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742815/10_swolkh.jpg",
+        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742826/1_bzvqjw.jpg",
         "company": "Frigidaire",
         "model": "EZCool Portable 400",
         "price": "399.99",

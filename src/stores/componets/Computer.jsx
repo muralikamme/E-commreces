@@ -5,6 +5,7 @@ import { computerData } from "../data/computers"; // Import computer data
 import Card from "react-bootstrap/Card";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { useSearch } from "./SearchContext"; // Import SearchContext for search functionality
+import "./componet.css"
 
 function Computer() {
   const { searchQuery } = useSearch(); // Access global search query
@@ -21,7 +22,7 @@ function Computer() {
 
       <div className="ProSection">
         {filteredComputers.map((item, index) => (
-          <Card style={{ width: "16rem" }} className="card card-spacing" key={index}>
+          <Card style={{ width: "14rem" }} className="card card-spacing" key={index}>
             <Card.Img
               variant="top"
               src={item.image}
@@ -32,7 +33,7 @@ function Computer() {
               <Card.Title>{item.company}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
               <Card.Text>
-                <strong>Price:</strong> {item.price} <FaIndianRupeeSign />
+                <strong>Price:</strong> <FaIndianRupeeSign />{item.price} 
               </Card.Text>
             </Card.Body>
           </Card>

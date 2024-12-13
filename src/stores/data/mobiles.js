@@ -2,57 +2,57 @@ export const mobileData = [{
 
         "id": "1",
         "product": "Mobile",
-        "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone16pro-digitalmat-gallery-3-202409?wid=728&hei=666&fmt=p-jpg&qlt=95&.v=1723843057832",
+        "image": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._AC_UY218_.jpg",
         "company": "Apple",
         "model": "iPhone 13 Pro",
         "price": "1099.00",
         "category": "Electronics",
-        "description": "The latest iPhone model with advanced camera capabilities and powerful performance."
+        "description": "The latest iPhone model with advanced camera capabilities ."
     },
     {
         "id": "2",
         "product": "Mobile",
-        "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743180/11_jx6fdv.jpg",
+        "image": "https://m.media-amazon.com/images/I/61-E0V81kBL._AC_UY218_.jpg",
         "company": "Samsung",
         "model": "Galaxy Z Fold 3",
         "price": "1799.00",
         "category": "Electronics",
-        "description": "A foldable smartphone with a large display and multitasking features."
+        "description": "A foldable smartphone with a large display and multitasking ."
     },
     {
         "id": "3",
         "product": "Mobile",
-        "image": "https://lh3.googleusercontent.com/Pn6gWhoGgOWaR5vHJ0v0gN4Ag2s42wwHhFyKfvYCyaR3cavQ4sTSQknSnUhooc_aMbp_1JHFI_P8fpND3n4Jyu53aXLiFzR3GZo=rw-e365-w2046",
+        "image": "https://m.media-amazon.com/images/I/31AH2nkqNhL._AC_UY218_.jpg",
         "company": "Google",
         "model": "Pixel 6",
         "price": "799.99",
         "category": "Electronics",
-        "description": "A Google Pixel phone with exceptional camera quality and the latest Android features."
+        "description": "A Google Pixel phone with exceptional camera ."
     },
     {
         "id": "4",
         "product": "Mobile",
-        "image": "https://image01-in.oneplus.net/media/202406/19/ec64eb41a8e787a798be1b71c13a51bb.png",
+        "image": "https://m.media-amazon.com/images/I/5155PFA2N+L._AC_UY218_.jpg",
         "company": "OnePlus",
         "model": "9 Pro",
         "price": "899.00",
         "category": "Electronics",
-        "description": "A flagship OnePlus phone known for its smooth performance and fast charging."
+        "description": "A flagship OnePlus phone known for its smooth ."
     },
     {
         "id": "5",
         "product": "Mobile",
-        "image": "https://i03.appmifile.com/139_item_in/04/07/2024/46058aecef913d385aee9e7ef1cdd257!600x600!85.png",
+        "image": "https://m.media-amazon.com/images/I/716FVMg72GS._AC_UY218_.jpg",
         "company": "Xiaomi",
         "model": "Mi 11 Ultra",
         "price": "999.50",
         "category": "Electronics",
-        "description": "A high-spec Xiaomi phone with a versatile camera system and powerful hardware."
+        "description": "A high-spec Xiaomi phone with a versatile camera system ."
     },
     {
         "id": "6",
         "product": "Mobile",
-        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTD7NzdXFs3fNZw7TAKm_p7vlSLa1obKWnNFZs7mrjySB4uiKhZ2qMpkQFNgsmxl8nEu-wRmxy-BmCIW205wmpnWwG8x27_BirIbOWtRSw&usqp=CAY",
+        "image": "https://m.media-amazon.com/images/I/51bu8fvlHQL._AC_UY218_.jpg",
         "company": "Sony",
         "model": "Xperia 1 III",
         "price": "1199.00",
@@ -72,22 +72,22 @@ export const mobileData = [{
     {
         "id": "8",
         "product": "Mobile",
-        "image": "https://motorolain.vtexassets.com/arquivos/ids/159154-800-auto?width=800&height=auto&aspect=true",
+        "image": "https://m.media-amazon.com/images/I/71zoUhd6fXL._AC_UY218_.jpg",
         "company": "Motorola",
         "model": "Edge 20",
         "price": "599.99",
         "category": "Electronics",
-        "description": "A Motorola Edge phone with 5G capabilities and a high-refresh-rate display."
+        "description": "A Motorola Edge phone with 5G capabilities ."
     },
     {
         "id": "9",
         "product": "Mobile",
-        "image": "https://m.media-amazon.com/images/I/719X++kRQNL._SY606_.jpg",
+        "image": "https://m.media-amazon.com/images/I/71K-b677qzL._AC_UY218_.jpg",
         "company": "Huawei",
         "model": "P50 Pro",
         "price": "1299.00",
         "category": "Electronics",
-        "description": "A Huawei flagship phone with advanced camera technology and sleek aesthetics."
+        "description": "A Huawei flagship phone with advanced camera technology and sleek ."
     },
     {
         "id": "10",
@@ -117,6 +117,6 @@ export const mobileData = [{
         "model": "GT Master Edition",
         "price": "379.99",
         "category": "Electronics",
-        "description": "A Realme phone designed in collaboration with a renowned designer, featuring a unique aesthetic."
+        "description": "A Realme phone designed in collaboration with a renowned designerc."
     }
 ]

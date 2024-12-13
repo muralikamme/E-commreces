@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+
 const UserCart = () => {
     const { cartitem, RemoveCart } = Usecart();
    
@@ -16,6 +17,7 @@ const UserCart = () => {
     const handleBuyNow = (item) => {
         // Add logic for "Buy Now", such as redirecting to a payment page
         alert(`your Order is confirm: ${item.product}`);
+       
         
         
    
