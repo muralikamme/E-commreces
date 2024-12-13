@@ -41,7 +41,7 @@ import UserCart from './stores/UserCart';
 
 
 
-// Not found
+// Not found page
 import NotFound from "./stores/componets/NotFound";
 
 import { SearchProvider } from './stores/componets/SearchContext';
@@ -51,7 +51,7 @@ import LoginPage from './stores/componets/Loginpage';
 import RegisterPage from './stores/componets/RegisterPage';
 
 
-import PrivateRoute from './stores/componets/PrivateRoute';
+
 
 
 
