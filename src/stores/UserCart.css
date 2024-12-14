@@ -138,10 +138,11 @@
     .cart-section {
         flex-direction: column;
         padding: 8px;
+        /* width: 50%; */
     }
 
     .cart-img img {
-        width: 100px;
+        width: 70px;
         height: 100px;
     }
 
@@ -162,7 +163,7 @@
     .cart-buttons button {
         padding: 6px 10px;
         font-size: 12px;
-        width: 90%; /* Ensure full-width buttons on small screens */
+        width: 19%; /* Ensure full-width buttons on small screens */
     }
 }
 
