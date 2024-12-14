@@ -1,68 +1,132 @@
 
 
-import React from 'react';
-import { Usecart} from "../stores/contex/Usecontex";
-import Nava from "./componets/nav";
-import "./UserCart.css";
-import { useNavigate } from 'react-router-dom';
+// import React from 'react';
+// import { Usecart} from "../stores/contex/Usecontex";
+// import Nava from "./componets/nav";
+// import "./UserCart.css";
+// import { useNavigate } from 'react-router-dom';
 
 
 
 
-const UserCart = () => {
-    const { cartitem, RemoveCart } = Usecart();
+// const UserCart = () => {
+//     const { cartitem, RemoveCart } = Usecart();
    
    
 
-    const handleBuyNow = (item) => {
-        // Add logic for "Buy Now", such as redirecting to a payment page
-        alert(`your Order is confirm: ${item.product}`);
+//     const handleBuyNow = (item) => {
+//         // Add logic for "Buy Now", such as redirecting to a payment page
+//         alert(`your Order is confirm: ${item.product}`);
        
         
         
    
 
-    };
+//     };
   
+
+//     return (
+//         <>
+//             <Nava />
+//             <div>
+//             <center>  <h2 className='y-cart'>Your Cart</h2></center>
+//                 {cartitem.length === 0 ? (
+//                    <center> <p className='empty'>Your Cart is Empty</p></center>
+//                 ) : (
+//                     <div>
+//                         {cartitem.map((item) => {
+//                             return (
+//                                 <div className='cart-section' key={item.id}>
+//                                     <div className="cart-img">
+//                                         <img src={item.image} alt={item.product} />
+//                                     </div>
+//                                     <div className="cart-details">
+//                                         <h3>{item.product}</h3>
+//                                         <h2>₹{item.price}</h2>
+//                                         <h3>{item.model}</h3>
+//                                         <h5>{item.description}</h5>
+//                                     </div>
+//                                     <div className="cart-buttons">
+//                                         <button
+//                                             className='removeBtn'
+//                                             onClick={() => RemoveCart(item)}
+//                                         >
+
+//                                             Remove
+//                                         </button>
+//                                         <button
+//                                             className='buyNowBtn'
+//                                             onClick={() => handleBuyNow(item)}
+//                                         >
+//                                             Buy Now
+//                                         </button>
+//                                     </div>
+//                                 </div>
+//                             );
+//                         })}
+//                     </div>
+//                 )}
+//             </div>
+//         </>
+//     );
+// };
+
+// export default UserCart;
+
+
+import React from 'react';
+import { Usecart } from "../stores/contex/Usecontex";
+import Nava from "./componets/nav";
+import "./UserCart.css";
+import { useNavigate } from "react-router-dom";
+
+const UserCart = () => {
+    const { cartitem, RemoveCart } = Usecart();
+
+    const handleBuyNow = (item) => {
+        alert(`Your order is confirmed: ${item.product}`);
+    };
 
     return (
         <>
             <Nava />
             <div>
-            <center>  <h2 className='y-cart'>Your Cart</h2></center>
+                <center>
+                    <h2 className="y-cart">Your Cart</h2>
+                </center>
                 {cartitem.length === 0 ? (
-                   <center> <p className='empty'>Your Cart is Empty</p></center>
+                    <center>
+                        <p className="empty">Your Cart is Empty</p>
+                    </center>
                 ) : (
                     <div>
-                        {cartitem.map((item) => {
-                            return (
-                                <div className='cart-section' key={item.id}>
-                                    <div className="cart-img">
-                                        <img src={item.image} alt={item.product} />
-                                    </div>
-                                    <div className="cart-details">
-                                        <h3>{item.product}</h3>
-                                        <h2>{item.price}$</h2>
-                                        <h3>{item.model}</h3>
-                                    </div>
-                                    <div className="cart-buttons">
-                                        <button
-                                            className='removeBtn'
-                                            onClick={() => RemoveCart(item)}
-                                        >
-
-                                            Remove
-                                        </button>
-                                        <button
-                                            className='buyNowBtn'
-                                            onClick={() => handleBuyNow(item)}
-                                        >
-                                            Buy Now
-                                        </button>
-                                    </div>
+                        {cartitem.map((item) => (
+                            <div className="cart-section" key={item.id}>
+                                <div className="cart-img">
+                                    <img src={item.image} alt={item.product} />
                                 </div>
-                            );
-                        })}
+                                <div className="cart-details">
+                                    <h3>{item.product}</h3>
+                                    <h2>₹{item.price}</h2>
+                                    <h3>{item.model}</h3>
+                                    <h5>{item.description}</h5>
+                                </div>
+                                <div className="cart-buttons">
+                                    <button
+                                        className="removeBtn"
+                                        onClick={() => RemoveCart(item)}
+                                    >
+                                        Remove
+                                    </button>
+                                    <button
+                                        className="buyNowBtn"
+                                        onClick={() => handleBuyNow(item)}
+                                    >
+                                        Buy Now
+                                    </button>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 )}
             </div>
@@ -71,5 +135,6 @@ const UserCart = () => {
 };
 
 export default UserCart;
+
 
 

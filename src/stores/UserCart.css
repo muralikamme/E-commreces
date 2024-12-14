@@ -15,30 +15,33 @@
 /* Cart Section */
 .cart-section {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 15px;
+    max-width: 900px;
     transition: transform 0.3s ease;
 }
 
 .cart-section:hover {
-    transform: scale(1.02); /* Hover effect */
+    transform: scale(1.02);
 }
 
 .cart-img img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 8px;
+    margin-right: 20px;
 }
 
 .cart-details {
     flex-grow: 1;
-    padding-left: 20px;
+    padding: 10px;
 }
 
 .cart-details h3 {
@@ -47,71 +50,69 @@
 }
 
 .cart-details h2 {
-    font-size: 20px;
-    color: #4CAF50;
+    font-size: 22px;
+    color: #FF9900;
     margin: 10px 0;
+}
+
+.cart-details h5 {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
 }
 
 .cart-buttons {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    margin-top: 15px;
 }
 
 .cart-buttons button {
-    padding: 8px 15px;
-    margin: 5px;
+    padding: 10px 20px;
+    margin: 5px 0;
     border: none;
     border-radius: 5px;
     font-size: 14px;
+    font-weight: bold;
     cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
 }
 
 .removeBtn {
     background-color: #FF6347;
     color: #fff;
+    transition: background-color 0.3s;
+}
+
+.removeBtn:hover {
+    background-color: #d9534f;
 }
 
 .buyNowBtn {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #FFD814;
+    color: #111;
+    border: 1px solid #FFD814;
+    transition: background-color 0.3s;
 }
 
-.cart-buttons button:hover {
-    opacity: 0.8;
+.buyNowBtn:hover {
+    background-color: #f7ca00;
 }
 
 /* Responsive Styles */
-@media (max-width: 1200px) {
-    .cart-section {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .cart-img img {
-        width: 120px;
-        height: 120px;
-    }
-
-    .cart-details h3 {
-        font-size: 16px;
-    }
-
-    .cart-details h2 {
-        font-size: 18px;
-    }
-}
-
 @media (max-width: 768px) {
     .cart-section {
         flex-direction: column;
-        padding: 10px;
         text-align: center;
+        padding: 10px;
     }
 
     .cart-img img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .cart-details h3 {
@@ -119,31 +120,37 @@
     }
 
     .cart-details h2 {
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+    .cart-details h5 {
+        font-size: 12px;
     }
 
     .cart-buttons {
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
         width: 100%;
     }
 
     .cart-buttons button {
-        padding: 6px 12px;
         font-size: 12px;
+        width: 90%; /* Buttons take almost full width on mobile */
     }
 }
 
 @media (max-width: 480px) {
     .cart-section {
-        flex-direction: column;
         padding: 8px;
-        /* width: 50%; */
     }
 
     .cart-img img {
-        width: 70px;
-        height: 100px;
+        width: 80px;
+        height: 70px;
+        padding: 4px;
+    }
+
+    .cart-details {
+        padding: 5px;
     }
 
     .cart-details h3 {
@@ -151,29 +158,16 @@
     }
 
     .cart-details h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
-    .cart-buttons {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    .cart-details h5 {
+        font-size: 12px;
     }
 
     .cart-buttons button {
-        padding: 6px 10px;
+        padding: 8px 10px;
         font-size: 12px;
-        width: 19%; /* Ensure full-width buttons on small screens */
+        width: 50%;
     }
-}
-
-/* Additional Styles */
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cart-section:hover {
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
