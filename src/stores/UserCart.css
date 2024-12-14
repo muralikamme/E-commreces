@@ -1,24 +1,19 @@
-
-
-
-
-
 /* General Styles */
 .y-cart {
     font-size: 28px;
     margin-top: 20px;
     color: #333;
     font-weight: bold;
-  }
-  
-  .empty {
+}
+
+.empty {
     font-size: 18px;
     color: gray;
     margin-top: 50px;
-  }
-  
-  /* Cart Section */
-  .cart-section {
+}
+
+/* Cart Section */
+.cart-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,157 +23,156 @@
     margin: 20px 0;
     padding: 15px;
     transition: transform 0.3s ease;
-  }
-  
-  .cart-section:hover {
+}
+
+.cart-section:hover {
     transform: scale(1.02); /* Hover effect */
-  }
-  
-  .cart-img img {
+}
+
+.cart-img img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 8px;
-  }
-  
-  .cart-details {
+}
+
+.cart-details {
     flex-grow: 1;
     padding-left: 20px;
-  }
-  
-  .cart-details h3 {
+}
+
+.cart-details h3 {
     font-size: 18px;
     margin: 5px 0;
-  }
-  
-  .cart-details h2 {
+}
+
+.cart-details h2 {
     font-size: 20px;
     color: #4CAF50;
     margin: 10px 0;
-  }
-  
-  .cart-buttons {
+}
+
+.cart-buttons {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-  }
-  
-  .cart-buttons button {
+}
+
+.cart-buttons button {
     padding: 8px 15px;
     margin: 5px;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-  }
-  
-  .removeBtn {
+}
+
+.removeBtn {
     background-color: #FF6347;
     color: #fff;
-  }
-  
-  .buyNowBtn {
+}
+
+.buyNowBtn {
     background-color: #4CAF50;
     color: #fff;
-  }
-  
-  .cart-buttons button:hover {
+}
+
+.cart-buttons button:hover {
     opacity: 0.8;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 1200px) {
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
     .cart-section {
-      flex-direction: row;
-      align-items: center;
+        flex-direction: row;
+        align-items: center;
     }
-  
+
     .cart-img img {
-      width: 120px;
-      height: 120px;
+        width: 120px;
+        height: 120px;
     }
-  
+
     .cart-details h3 {
-      font-size: 16px;
+        font-size: 16px;
     }
-  
+
     .cart-details h2 {
-      font-size: 18px;
+        font-size: 18px;
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .cart-section {
-      flex-direction: column;
-      padding: 10px;
-      text-align: center;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
     }
-  
+
     .cart-img img {
-      width: 150px;
-      height: 150px;
+        width: 120px;
+        height: 120px;
     }
-  
+
     .cart-details h3 {
-      font-size: 16px;
+        font-size: 16px;
     }
-  
+
     .cart-details h2 {
-      font-size: 18px;
+        font-size: 18px;
     }
-  
+
     .cart-buttons {
-      flex-direction: row;
-      justify-content: space-between;
-      width: 20%;
-      height: 60%;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
     }
-  
+
     .cart-buttons button {
-      padding: 10px 20px;
-      font-size: 16px;
+        padding: 6px 12px;
+        font-size: 12px;
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .cart-section {
-      flex-direction: column;
-      padding: 8px;
+        flex-direction: column;
+        padding: 8px;
     }
-  
+
     .cart-img img {
-      width: 130px;
-      height: 130px;
+        width: 100px;
+        height: 100px;
     }
-  
+
     .cart-details h3 {
-      font-size: 14px;
+        font-size: 14px;
     }
-  
+
     .cart-details h2 {
-      font-size: 16px;
+        font-size: 16px;
     }
-  
+
     .cart-buttons {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
-  
+
     .cart-buttons button {
-      width: 100%;
-      padding: 12px 15px;
-      font-size: 14px;
+        padding: 6px 10px;
+        font-size: 12px;
+        width: 90%; /* Ensure full-width buttons on small screens */
     }
-  }
-  
-  /* Additional Styles */
-  .center {
+}
+
+/* Additional Styles */
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .cart-section:hover {
+}
+
+.cart-section:hover {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  }
-  
+}
