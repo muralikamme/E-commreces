@@ -7,25 +7,19 @@ import Nava from '../componets/nav';
 import {Usecart} from '../contex/Usecontex';
 
 const Watchsingle = () => {
-    var  {id}=useParams()
-//   let   {AddtoCart}=Usecart()
-const { AddtoCart, currentUser } = Usecart();
+  var  {id}=useParams()
+  
+  const { AddtoCart, currentUser } = Usecart(); // Access cart and current user state
 
-//   //alert msg 
-//   const handleAddToCart = (item) => {
-//     AddtoCart(item); // Call the AddtoCart method to add the item
-//     alert(`${item.product} has been added to your cart!`); // Show alert after adding
-// };
-
-const handleAddToCart = (item) => {
-  if (!currentUser) {
-    alert("Please login to add items to your cart.");
-    navigate("/login"); // Redirect to login page if not logged in
-  } else {
-    AddtoCart(item); // Add to cart if user is logged in
-    alert(`${item.product} has been added to your cart!`);
-  }
-};
+  const handleAddToCart = (item) => {
+    if (!currentUser) {
+      alert("Please login to add items to your cart.");
+      navigate("/login"); // Redirect to login page if not logged in
+    } else {
+      AddtoCart(item); // Add to cart if user is logged in
+      alert(`${item.product} has been added to your cart!`);
+    }
+  };
 
   
     const cleanId = id.replace(":", "");

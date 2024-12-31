@@ -102,6 +102,7 @@ const Acsingle = () => {
             variant="bottom" 
             src={pro.image}   
             className='singleimg'
+            width={50}
           />
           <Card.Body>
             <Card.Title>{pro.company}</Card.Title>
