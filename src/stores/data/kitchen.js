@@ -5,7 +5,7 @@ export const kitchenData = [{
         "type": "Blender",
         "brand": "Vitamix",
         "model": "PowerBlend 5000",
-        "price": "249.99",
+        "price": "2,100",
         "category": "Appliances",
         "description": "A powerful blender for smoothies, soups, and more, with variable speed control."
     },
@@ -16,7 +16,7 @@ export const kitchenData = [{
         "type": "Cookware Set",
         "brand": "Calphalon",
         "model": "Classic Nonstick",
-        "price": "299.00",
+        "price": "6,000",
         "category": "Cookware",
         "description": "A comprehensive cookware set featuring nonstick surfaces and durable construction."
     },
@@ -27,7 +27,7 @@ export const kitchenData = [{
         "type": "Coffee Maker",
         "brand": "Keurig",
         "model": "K-Elite",
-        "price": "149.50",
+        "price": "8,000",
         "category": "Appliances",
         "description": "A versatile coffee maker with multiple brew sizes and strong brew option."
     },
@@ -38,7 +38,7 @@ export const kitchenData = [{
         "type": "Knife Set",
         "brand": "Wusthof",
         "model": "Classic Knife Block",
-        "price": "199.99",
+        "price": "7,200",
         "category": "Cutlery",
         "description": "A high-quality knife set featuring essential knives and a stylish knife block."
     },
@@ -49,7 +49,7 @@ export const kitchenData = [{
         "type": "Stand Mixer",
         "brand": "KitchenAid",
         "model": "Artisan Series",
-        "price": "299.00",
+        "price": "8,900",
         "category": "Appliances",
         "description": "An iconic stand mixer known for its versatility and wide range of attachments."
     },
@@ -60,7 +60,7 @@ export const kitchenData = [{
         "type": "Baking Set",
         "brand": "Pyrex",
         "model": "Bake & Store",
-        "price": "49.99",
+        "price": "9,000",
         "category": "Bakeware",
         "description": "A practical baking set with various glass containers for baking, storing, and serving."
     },
@@ -71,7 +71,7 @@ export const kitchenData = [{
         "type": "Rice Cooker",
         "brand": "Zojirushi",
         "model": "Neuro Fuzzy",
-        "price": "119.00",
+        "price": "5,000",
         "category": "Appliances",
         "description": "A sophisticated rice cooker with advanced fuzzy logic technology for perfect rice every time."
     },
@@ -82,7 +82,7 @@ export const kitchenData = [{
         "type": "Utensil Set",
         "brand": "OXO",
         "model": "Good Grips",
-        "price": "29.99",
+        "price": "2,000",
         "category": "Utensils",
         "description": "A versatile utensil set with comfortable grips and a variety of kitchen tools."
     },
@@ -93,7 +93,7 @@ export const kitchenData = [{
         "type": "Food Processor",
         "brand": "Cuisinart",
         "model": "DLC-8SBCY",
-        "price": "129.99",
+        "price": "1200",
         "category": "Appliances",
         "description": "A powerful food processor for chopping, slicing, and shredding ingredients."
     },
@@ -104,7 +104,7 @@ export const kitchenData = [{
         "type": "Mixer",
         "brand": "OXO",
         "model": "Handheld Mixer",
-        "price": "49.50",
+        "price": "1400",
         "category": "Appliances",
         "description": "A handheld mixer with multiple speed settings for blending, whipping, and mixing."
     },
@@ -115,7 +115,7 @@ export const kitchenData = [{
         "type": "Dish Set",
         "brand": "Corelle",
         "model": "Classic Winter Frost",
-        "price": "69.99",
+        "price": "1600",
         "category": "Dining",
         "description": "A durable and lightweight dish set suitable for everyday dining and special occasions."
     },
@@ -126,7 +126,7 @@ export const kitchenData = [{
         "type": "Slow Cooker",
         "brand": "Crock-Pot",
         "model": "Programmable Slow Cooker",
-        "price": "79.00",
+        "price": "1400",
         "category": "Appliances",
         "description": "A programmable slow cooker for convenient and flavorful cooking."
     }

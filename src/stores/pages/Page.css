@@ -50,11 +50,12 @@
 }
 
 .product-image {
-  width: 100%; /* Image will take full width of the container */
+  width: 80%; /* Image will take full width of the container */
   height: 90%; /* Maintain aspect ratio */
   border-radius: 10px;
+  /* padding: 10px; */
   transition: transform 0.3s ease-in-out;
-  object-fit: cover; /* Ensures the image covers the area without distortion */
+  object-fit:contain; /* Ensures the image covers the area without distortion */
 }
 
 .product-image:hover {

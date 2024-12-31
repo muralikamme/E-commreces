@@ -5,7 +5,7 @@ export const menData = [{
         "type": "T-Shirt",
         "brand": "Nike",
         "model": "Sporty Tee",
-        "price": "29.99",
+        "price": "2,000",
         "category": "Clothing",
         "description": "A comfortable and stylish sporty t-shirt with moisture-wicking fabric."
     },
@@ -16,7 +16,7 @@ export const menData = [{
         "type": "Dress Shirt",
         "brand": "Calvin Klein",
         "model": "ClassicFit",
-        "price": "49.99",
+        "price": "2,999",
         "category": "Clothing",
         "description": "A classic fit dress shirt made from high-quality fabric, suitable for formal occasions."
     },
@@ -27,7 +27,7 @@ export const menData = [{
         "type": "Jeans",
         "brand": "Levi's",
         "model": "511 Slim Fit",
-        "price": "59.50",
+        "price": "2,100",
         "category": "Clothing",
         "description": "Slim fit jeans with a modern look, perfect for casual outings."
     },
@@ -38,7 +38,7 @@ export const menData = [{
         "type": "Polo Shirt",
         "brand": "Ralph Lauren",
         "model": "Signature Polo",
-        "price": "69.00",
+        "price": "1,999",
         "category": "Clothing",
         "description": "A classic polo shirt with the iconic Ralph Lauren logo, ideal for a refined casual look."
     },
@@ -49,7 +49,7 @@ export const menData = [{
         "type": "Jacket",
         "brand": "The North Face",
         "model": "Apex Bionic",
-        "price": "129.99",
+        "price": "2,800",
         "category": "Clothing",
         "description": "A versatile softshell jacket designed for outdoor activities and everyday wear."
     },
@@ -60,7 +60,7 @@ export const menData = [{
         "type": "Shorts",
         "brand": "Under Armour",
         "model": "Tech Mesh Shorts",
-        "price": "34.99",
+        "price": "1,200",
         "category": "Clothing",
         "description": "Lightweight and breathable mesh shorts for workouts and active lifestyles."
     },
@@ -71,7 +71,7 @@ export const menData = [{
         "type": "Sweater",
         "brand": "Tommy Hilfiger",
         "model": "Crewneck Sweater",
-        "price": "79.50",
+        "price": "1,999",
         "category": "Clothing",
         "description": "A classic crewneck sweater made from soft and comfortable materials."
     },
@@ -82,7 +82,7 @@ export const menData = [{
         "type": "Suit",
         "brand": "Hugo Boss",
         "model": "ModernFit Suit",
-        "price": "499.00",
+        "price": "499",
         "category": "Clothing",
         "description": "A modern-fit suit crafted with attention to detail, perfect for formal occasions."
     },
@@ -93,7 +93,7 @@ export const menData = [{
         "type": "Hoodie",
         "brand": "Adidas",
         "model": "Essentials Hoodie",
-        "price": "44.99",
+        "price": "499",
         "category": "Clothing",
         "description": "A comfortable and stylish hoodie with the Adidas logo, suitable for everyday wear."
     },
@@ -104,7 +104,7 @@ export const menData = [{
         "type": "Chinos",
         "brand": "Dockers",
         "model": "Alpha Khaki",
-        "price": "39.99",
+        "price": "3,999",
         "category": "Clothing",
         "description": "Versatile chino pants with a modern slim fit, suitable for casual and semi-formal occasions."
     },
@@ -115,7 +115,7 @@ export const menData = [{
         "type": "Swim Trunks",
         "brand": "Speedo",
         "model": "Endurance+ Swim Trunks",
-        "price": "29.50",
+        "price": "2,950",
         "category": "Clothing",
         "description": "Durable and comfortable swim trunks designed for performance and comfort in the water."
     },
@@ -126,7 +126,7 @@ export const menData = [{
         "type": "Blazer",
         "brand": "Brothers",
         "model": "Classic Blazer",
-        "price": "189.00",
+        "price": "1,890",
         "category": "Clothing",
         "description": "A timeless classic blazer suitable for both professional and smart-casual looks."
     }

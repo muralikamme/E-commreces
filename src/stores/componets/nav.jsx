@@ -304,15 +304,14 @@ function Nava() {
 
               {/* Submenu Links */}
               <NavDropdown title="Categories" id="basic-nav-dropdown" >
-                <NavDropdown.Item as={Link} to="/Mobiles" style={{textDecoration:"none"}}>
-                  Mobiles
+              <NavDropdown.Item as={Link} to="/MenFashion" style={{textDecoration:"none"}}>
+                  Men Fashion
                 </NavDropdown.Item>
+               
                 <NavDropdown.Item as={Link} to="/Computers" style={{textDecoration:"none"}}>
                   Computers
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/MenFashion" style={{textDecoration:"none"}}>
-                  Men Fashion
-                </NavDropdown.Item>
+                
                 <NavDropdown.Item as={Link} to="/WomenFashion" style={{textDecoration:"none"}}>
                   Women Fashion
                 </NavDropdown.Item>
@@ -321,6 +320,9 @@ function Nava() {
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/Furniture" style={{textDecoration:"none"}}>
                   Furniture
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Mobiles" style={{textDecoration:"none"}}>
+                  Mobiles
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/Kitchen" style={{textDecoration:"none"}}>
                   Kitchen

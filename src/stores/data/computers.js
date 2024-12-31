@@ -4,7 +4,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742964/16_usbhil.jpg",
         "company": "Dell",
         "model": "Inspiron 15",
-        "price": "899.99",
+        "price": "45,999",
         "category": "Electronics",
         "description": "A versatile laptop with powerful performance and a sleek design."
     },
@@ -14,7 +14,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742990/3_s66mdj.jpg",
         "company": "HP",
         "model": "Pavilion 27",
-        "price": "1299.00",
+        "price": "70,999",
         "category": "Electronics",
         "description": "An all-in-one desktop PC with a large display and high-speed processing."
     },
@@ -24,7 +24,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742975/10_h9y6yc.jpg",
         "company": "Apple",
         "model": "MacBook Air",
-        "price": "1199.00",
+        "price": "99,999",
         "category": "Electronics",
         "description": "An ultrathin and lightweight laptop known for its portability ."
     },
@@ -34,7 +34,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742988/6_tjz4f7.jpg",
         "company": "Lenovo",
         "model": "IdeaPad Flex",
-        "price": "799.50",
+        "price": "56,999",
         "category": "Electronics",
         "description": "A flexible 2-in-1 laptop with touchscreen capabilities ."
     },
@@ -44,7 +44,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742985/7_mkv3t3.jpg",
         "company": "Acer",
         "model": "Predator Helios 300",
-        "price": "1299.00",
+        "price": "39,999",
         "category": "Electronics",
         "description": "A gaming laptop with high-performance graphics ."
     },
@@ -54,7 +54,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742983/5_hgqa0i.jpg",
         "company": "Microsoft",
         "model": "Surface Pro 7",
-        "price": "999.99",
+        "price": "28,999",
         "category": "Electronics",
         "description": "A versatile 2-in-1 tablet and laptop with a detachable keyboard and stylus support."
     },
@@ -64,7 +64,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742983/4_q8fog8.jpg",
         "company": "Asus",
         "model": "ZenBook 14",
-        "price": "899.00",
+        "price": "29,999",
         "category": "Electronics",
         "description": "A compact laptop with a premium build, strong performance, and long battery life."
     },
@@ -74,7 +74,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742980/18_axyumy.jpg",
         "company": "Alienware",
         "model": "Aurora R10",
-        "price": "1999.00",
+        "price": "39,999",
         "category": "Electronics",
         "description": "A high-end gaming desktop with customizable components and advanced graphics capabilities."
     },
@@ -84,7 +84,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742979/19_qaij2s.jpg",
         "company": "HP",
         "model": "EliteBook 840",
-        "price": "1299.00",
+        "price": "34,999",
         "category": "Electronics",
         "description": "A business laptop with robust security features, reliable performance, and sleek design."
     },
@@ -94,7 +94,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742975/10_h9y6yc.jpg",
         "company": "Lenovo",
         "model": "ThinkCentre M720",
-        "price": "799.00",
+        "price": "34,999",
         "category": "Electronics",
         "description": "A compact and powerful desktop computer suitable for business and productivity tasks."
     },
@@ -104,7 +104,7 @@ export const computerData = [{
         "image":"https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742974/20_kk5x73.jpg",
         "company": "Dell",
         "model": "XPS 13",
-        "price": "1499.00",
+        "price": "29,999",
         "category": "Electronics",
         "description": "A premium ultrabook with a stunning display, strong performance, and sleek design."
     },
@@ -114,7 +114,7 @@ export const computerData = [{
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742964/16_usbhil.jpg",
         "company": "Acer",
         "model": "Chromebook 14",
-        "price": "349.99",
+        "price": "26,999",
         "category": "Electronics",
         "description": "A lightweight and affordable laptop running on Chrome OS, ideal for web-based tasks."
     }
