@@ -14,8 +14,10 @@ const Books = () => {
   var FirstFiveImg= booksData.slice(0,5)
   // Filter books based on the search query
   const filteredBooks = FirstFiveImg.filter((item) =>
-    item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    item.description.toLowerCase().includes(searchQuery.toLowerCase())
+    (item.title && item.title.toLowerCase().includes(searchQuery.toLowerCase()) ) ||
+    (item.product && item.product.toLowerCase().includes(searchQuery.toLowerCase()) )
+
+    
   );
 
   return (

@@ -7,7 +7,8 @@ export const furnitureData = [{
         "model": "ComfortPlus",
         "price": "12,000",
         "category": "Home",
-        "description": "A comfortable and modern sofa with plush cushions and a sleek design."
+        "description": "A comfortable and modern sofa with plush cushions and a sleek design.",
+        "data":"furniture"
     },
     {
         "id": "2",
@@ -18,7 +19,8 @@ export const furnitureData = [{
         "model": "ElegantDine",
         "price": "18,000",
         "category": "Home",
-        "description": "An elegant dining table with solid wood construction and expandable design."
+        "description": "An elegant dining table with solid wood construction and expandable design.",
+        "data":"furniture"
     },
     {
         "id": "3",
@@ -29,7 +31,8 @@ export const furnitureData = [{
         "model": "DreamRest",
         "price": "13,888",
         "category": "Home",
-        "description": "A stylish and comfortable bed with upholstered headboard and durable frame."
+        "description": "A stylish and comfortable bed with upholstered headboard and durable frame.",
+        "data":"furniture"
     },
     {
         "id": "4",
@@ -40,7 +43,8 @@ export const furnitureData = [{
         "model": "ModernBlend",
         "price": "13,999",
         "category": "Home",
-        "description": "A modern coffee table with a blend of materials, adding character to your living room."
+        "description": "A modern coffee table with a blend of materials, adding character to your living room.",
+        "data":"furniture"
     },
     {
         "id": "5",
@@ -51,7 +55,8 @@ export const furnitureData = [{
         "model": "SpaceSaver",
         "price": "13,000",
         "category": "Home",
-        "description": "A space-saving wardrobe with versatile storage compartments and sleek appearance."
+        "description": "A space-saving wardrobe with versatile storage compartments and sleek appearance.",
+        "data":"furniture"
     },
     {
         "id": "6",
@@ -62,7 +67,8 @@ export const furnitureData = [{
         "model": "BookHaven",
         "price": "14,000",
         "category": "Home",
-        "description": "A functional bookshelf with adjustable shelves, suitable for any room."
+        "description": "A functional bookshelf with adjustable shelves, suitable for any room.",
+        "data":"furniture"
     },
     {
         "id": "7",
@@ -73,7 +79,8 @@ export const furnitureData = [{
         "model": "WorkPro",
         "price": "12,000",
         "category": "Office",
-        "description": "A spacious office desk with ergonomic design and ample storage."
+        "description": "A spacious office desk with ergonomic design and ample storage.",
+        "data":"furniture"
     },
     {
         "id": "8",
@@ -84,7 +91,8 @@ export const furnitureData = [{
         "model": "UrbanChic",
         "price": "18,000",
         "category": "Home",
-        "description": "An urban chic bar stool with a contemporary look, perfect for kitchen islands."
+        "description": "An urban chic bar stool with a contemporary look, perfect for kitchen islands.",
+        "data":"furniture"
     },
     {
         "id": "9",
@@ -95,7 +103,8 @@ export const furnitureData = [{
         "model": "RusticCharm",
         "price": "16,000",
         "category": "Home",
-        "description": "A rustic dresser with ample storage space and charming distressed finish."
+        "description": "A rustic dresser with ample storage space and charming distressed finish.",
+        "data":"furniture"
     },
     {
         "id": "10",
@@ -106,7 +115,8 @@ export const furnitureData = [{
         "model": "ComfyLounge",
         "price": "17,000",
         "category": "Home",
-        "description": "A comfortable couch with deep seating and modern design, perfect for lounging."
+        "description": "A comfortable couch with deep seating and modern design, perfect for lounging.",
+        "data":"furniture"
     },
     {
         "id": "11",
@@ -117,7 +127,8 @@ export const furnitureData = [{
         "model": "MinimalistSide",
         "price": "12,000",
         "category": "Home",
-        "description": "A minimalist side table with clean lines, adding functionality to any space."
+        "description": "A minimalist side table with clean lines, adding functionality to any space.",
+        "data":"furniture"
     },
     {
         "id": "12",
@@ -128,6 +139,7 @@ export const furnitureData = [{
         "model": "ClassicNight",
         "price": "12,000",
         "category": "Home",
-        "description": "A classic bedside table with a timeless design and convenient storage."
+        "description": "A classic bedside table with a timeless design and convenient storage.",
+        "data":"furniture"
     }
 ]

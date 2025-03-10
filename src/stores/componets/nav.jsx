@@ -361,6 +361,7 @@ function Nava() {
                   />
                   <span style={{ color: "white" }}>Cart </span>
                 </div>
+                {/* {cartitem.length} */}
               </Nav.Link>
 
               {/* Conditional rendering for login/logout */}

@@ -6,7 +6,8 @@ export const computerData = [{
         "model": "Inspiron 15",
         "price": "45,999",
         "category": "Electronics",
-        "description": "A versatile laptop with powerful performance and a sleek design."
+        "description": "A versatile laptop with powerful performance and a sleek design.",
+        "data":"computers"
     },
     {
         "id": "2",
@@ -16,7 +17,8 @@ export const computerData = [{
         "model": "Pavilion 27",
         "price": "70,999",
         "category": "Electronics",
-        "description": "An all-in-one desktop PC with a large display and high-speed processing."
+        "description": "An all-in-one desktop PC with a large display and high-speed processing.",
+        "data":"computers"
     },
     {
         "id": "3",
@@ -26,7 +28,8 @@ export const computerData = [{
         "model": "MacBook Air",
         "price": "99,999",
         "category": "Electronics",
-        "description": "An ultrathin and lightweight laptop known for its portability ."
+        "description": "An ultrathin and lightweight laptop known for its portability .",
+        "data":"computers"
     },
     {
         "id": "4",
@@ -36,7 +39,8 @@ export const computerData = [{
         "model": "IdeaPad Flex",
         "price": "56,999",
         "category": "Electronics",
-        "description": "A flexible 2-in-1 laptop with touchscreen capabilities ."
+        "description": "A flexible 2-in-1 laptop with touchscreen capabilities .",
+        "data":"computers"
     },
     {
         "id": "5",
@@ -46,7 +50,8 @@ export const computerData = [{
         "model": "Predator Helios 300",
         "price": "39,999",
         "category": "Electronics",
-        "description": "A gaming laptop with high-performance graphics ."
+        "description": "A gaming laptop with high-performance graphics .",
+        "data":"computers"
     },
     {
         "id": "6",
@@ -56,7 +61,8 @@ export const computerData = [{
         "model": "Surface Pro 7",
         "price": "28,999",
         "category": "Electronics",
-        "description": "A versatile 2-in-1 tablet and laptop with a detachable keyboard and stylus support."
+        "description": "A versatile 2-in-1 tablet and laptop with a detachable keyboard and stylus support.",
+        "data":"computers"
     },
     {
         "id": "7",
@@ -66,7 +72,8 @@ export const computerData = [{
         "model": "ZenBook 14",
         "price": "29,999",
         "category": "Electronics",
-        "description": "A compact laptop with a premium build, strong performance, and long battery life."
+        "description": "A compact laptop with a premium build, strong performance, and long battery life.",
+        "data":"computers"
     },
     {
         "id": "8",
@@ -76,7 +83,8 @@ export const computerData = [{
         "model": "Aurora R10",
         "price": "39,999",
         "category": "Electronics",
-        "description": "A high-end gaming desktop with customizable components and advanced graphics capabilities."
+        "description": "A high-end gaming desktop with customizable components and advanced graphics capabilities.",
+        "data":"computers"
     },
     {
         "id": "9",
@@ -86,7 +94,8 @@ export const computerData = [{
         "model": "EliteBook 840",
         "price": "34,999",
         "category": "Electronics",
-        "description": "A business laptop with robust security features, reliable performance, and sleek design."
+        "description": "A business laptop with robust security features, reliable performance, and sleek design.",
+        "data":"computers"
     },
     {
         "id": "10",
@@ -96,7 +105,8 @@ export const computerData = [{
         "model": "ThinkCentre M720",
         "price": "34,999",
         "category": "Electronics",
-        "description": "A compact and powerful desktop computer suitable for business and productivity tasks."
+        "description": "A compact and powerful desktop computer suitable for business and productivity tasks.",
+        "data":"computers"
     },
     {
         "id": "11",
@@ -106,7 +116,8 @@ export const computerData = [{
         "model": "XPS 13",
         "price": "29,999",
         "category": "Electronics",
-        "description": "A premium ultrabook with a stunning display, strong performance, and sleek design."
+        "description": "A premium ultrabook with a stunning display, strong performance, and sleek design.",
+        "data":"computers"
     },
     {
         "id": "12",
@@ -116,6 +127,7 @@ export const computerData = [{
         "model": "Chromebook 14",
         "price": "26,999",
         "category": "Electronics",
-        "description": "A lightweight and affordable laptop running on Chrome OS, ideal for web-based tasks."
+        "description": "A lightweight and affordable laptop running on Chrome OS, ideal for web-based tasks.",
+        "data":"computers"
     }
 ]

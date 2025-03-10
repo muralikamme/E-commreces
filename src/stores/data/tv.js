@@ -1,6 +1,6 @@
 export const tvData = [{
         "id": "1",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743243/4_gfsrcm.jpg",
         "brand": "LG",
         "model": "OLED CX Series",
@@ -10,7 +10,7 @@ export const tvData = [{
     },
     {
         "id": "2",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743261/9_e1iq25.jpg",
         "brand": "Sony",
         "model": "Bravia X90J",
@@ -20,7 +20,7 @@ export const tvData = [{
     },
     {
         "id": "3",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743259/8_d1a271.jpg",
         "brand": "Samsung",
         "model": "QLED Q80A",
@@ -30,7 +30,7 @@ export const tvData = [{
     },
     {
         "id": "4",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743258/12_p18lsd.jpg",
         "brand": "TCL",
         "model": "6-Series",
@@ -40,7 +40,7 @@ export const tvData = [{
     },
     {
         "id": "5",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743256/11_wp2hag.png",
         "brand": "Vizio",
         "model": "P-Series Quantum",
@@ -50,7 +50,7 @@ export const tvData = [{
     },
     {
         "id": "6",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743254/10_w4vqxu.jpg",
         "brand": "Hisense",
         "model": "U8G Series",
@@ -60,7 +60,7 @@ export const tvData = [{
     },
     {
         "id": "7",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743253/1_ypexli.jpg",
         "brand": "Panasonic",
         "model": "HZ2000",
@@ -70,7 +70,7 @@ export const tvData = [{
     },
     {
         "id": "8",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743251/3_fxl9og.jpg",
         "brand": "Sharp",
         "model": "Aquos R5G",
@@ -80,7 +80,7 @@ export const tvData = [{
     },
     {
         "id": "9",
-        "product": "TV",
+        "product": "TVs",
         "image": "ashttps://res.cloudinary.com/dgnd4u54h/image/upload/v1733743250/2_ovzopy.jpg",
         "brand": "Philips",
         "model": "Ambilight 4K",
@@ -90,7 +90,7 @@ export const tvData = [{
     },
     {
         "id": "10",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743248/5_tztlol.jpg",
         "brand": "Sceptre",
         "model": "X438BV-FSR",
@@ -100,7 +100,7 @@ export const tvData = [{
     },
     {
         "id": "11",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743243/4_gfsrcm.jpg",
         "brand": "Insignia",
         "model": "Fire TV Edition",
@@ -110,7 +110,7 @@ export const tvData = [{
     },
     {
         "id": "12",
-        "product": "TV",
+        "product": "TVs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743245/6_ih0tex.jpg",
         "brand": "Samsung",
         "model": "The Frame",

@@ -9,14 +9,7 @@ import {Usecart} from '../contex/Usecontex';
 
 const Tvsingle = () => {
     var  {id}=useParams()
-  // let   {AddtoCart}=Usecart()
-
-
-  //   //alert msg 
-  //   const handleAddToCart = (item) => {
-  //     AddtoCart(item); // Call the AddtoCart method to add the item
-  //     alert(`${item.product} has been added to your cart!`); // Show alert after adding
-  // };
+  
   const { AddtoCart, currentUser } = Usecart(); // Access cart and current user state
 
   const handleAddToCart = (item) => {

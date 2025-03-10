@@ -1,6 +1,6 @@
 export const watchData = [{
         "id": "1",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743305/1_y858bv.png",
         "brand": "Apple",
         "model": "Watch Series 7",
@@ -10,7 +10,7 @@ export const watchData = [{
     },
     {
         "id": "2",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743304/7_hxdirb.jpg",
         "brand": "Samsung",
         "model": "Galaxy Watch 4",
@@ -20,7 +20,7 @@ export const watchData = [{
     },
     {
         "id": "3",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743302/6_fmdca3.jpg",
         "brand": "Fitbit",
         "model": "Versa 3",
@@ -30,7 +30,7 @@ export const watchData = [{
     },
     {
         "id": "4",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743300/2_ccabdi.jpg",
         "brand": "Garmin",
         "model": "Forerunner 945",
@@ -40,7 +40,7 @@ export const watchData = [{
     },
     {
         "id": "5",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743299/3_igd9zi.jpg",
         "brand": "Fossil",
         "model": "Gen 5",
@@ -50,7 +50,7 @@ export const watchData = [{
     },
     {
         "id": "6",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743297/8_x5uvmo.jpg",
         "brand": "Casio",
         "model": "G-Shock GA-2100",
@@ -60,7 +60,7 @@ export const watchData = [{
     },
     {
         "id": "7",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743295/4_sp2xnd.jpg",
         "brand": "TAG Heuer",
         "model": "Carrera Calibre Heuer 02",
@@ -70,7 +70,7 @@ export const watchData = [{
     },
     {
         "id": "8",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743294/12_lvjivh.jpg",
         "brand": "Timex",
         "model": "Weekender Chronograph",
@@ -80,7 +80,7 @@ export const watchData = [{
     },
     {
         "id": "9",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743292/5_r9ozb6.jpg",
         "brand": "Citizen",
         "model": "Eco-Drive Promaster",
@@ -90,7 +90,7 @@ export const watchData = [{
     },
     {
         "id": "10",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743290/9_pyrpwg.jpg",
         "brand": "Seiko",
         "model": "SKX007",
@@ -100,7 +100,7 @@ export const watchData = [{
     },
     {
         "id": "11",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743289/10_zfzwf1.jpg",
         "brand": "Michael Kors",
         "model": "Access Lexington 2",
@@ -110,7 +110,7 @@ export const watchData = [{
     },
     {
         "id": "12",
-        "product": "Watch",
+        "product": "Watchs",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743287/11_ue6tjq.jpg",
         "brand": "Huawei",
         "model": "Watch GT 3",

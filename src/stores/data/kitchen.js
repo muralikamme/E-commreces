@@ -7,7 +7,8 @@ export const kitchenData = [{
         "model": "PowerBlend 5000",
         "price": "2,100",
         "category": "Appliances",
-        "description": "A powerful blender for smoothies, soups, and more, with variable speed control."
+        "description": "A powerful blender for smoothies, soups, and more, with variable speed control.",
+        "data":"kitchen"
     },
     {
         "id": "2",
@@ -18,7 +19,8 @@ export const kitchenData = [{
         "model": "Classic Nonstick",
         "price": "6,000",
         "category": "Cookware",
-        "description": "A comprehensive cookware set featuring nonstick surfaces and durable construction."
+        "description": "A comprehensive cookware set featuring nonstick surfaces and durable construction.",
+        "data":"kitchen"
     },
     {
         "id": "3",
@@ -29,7 +31,8 @@ export const kitchenData = [{
         "model": "K-Elite",
         "price": "8,000",
         "category": "Appliances",
-        "description": "A versatile coffee maker with multiple brew sizes and strong brew option."
+        "description": "A versatile coffee maker with multiple brew sizes and strong brew option.",
+        "data":"kitchen"
     },
     {
         "id": "4",
@@ -40,7 +43,8 @@ export const kitchenData = [{
         "model": "Classic Knife Block",
         "price": "7,200",
         "category": "Cutlery",
-        "description": "A high-quality knife set featuring essential knives and a stylish knife block."
+        "description": "A high-quality knife set featuring essential knives and a stylish knife block.",
+        "data":"kitchen"
     },
     {
         "id": "5",
@@ -51,7 +55,8 @@ export const kitchenData = [{
         "model": "Artisan Series",
         "price": "8,900",
         "category": "Appliances",
-        "description": "An iconic stand mixer known for its versatility and wide range of attachments."
+        "description": "An iconic stand mixer known for its versatility and wide range of attachments.",
+        "data":"kitchen"
     },
     {
         "id": "6",
@@ -62,7 +67,8 @@ export const kitchenData = [{
         "model": "Bake & Store",
         "price": "9,000",
         "category": "Bakeware",
-        "description": "A practical baking set with various glass containers for baking, storing, and serving."
+        "description": "A practical baking set with various glass containers for baking, storing, and serving.",
+        "data":"kitchen"
     },
     {
         "id": "7",
@@ -73,7 +79,8 @@ export const kitchenData = [{
         "model": "Neuro Fuzzy",
         "price": "5,000",
         "category": "Appliances",
-        "description": "A sophisticated rice cooker with advanced fuzzy logic technology for perfect rice every time."
+        "description": "A sophisticated rice cooker with advanced fuzzy logic technology for perfect rice every time.",
+        "data":"kitchen"
     },
     {
         "id": "8",
@@ -84,7 +91,8 @@ export const kitchenData = [{
         "model": "Good Grips",
         "price": "2,000",
         "category": "Utensils",
-        "description": "A versatile utensil set with comfortable grips and a variety of kitchen tools."
+        "description": "A versatile utensil set with comfortable grips and a variety of kitchen tools.",
+        "data":"kitchen"
     },
     {
         "id": "9",
@@ -95,7 +103,8 @@ export const kitchenData = [{
         "model": "DLC-8SBCY",
         "price": "1200",
         "category": "Appliances",
-        "description": "A powerful food processor for chopping, slicing, and shredding ingredients."
+        "description": "A powerful food processor for chopping, slicing, and shredding ingredients.",
+        "data":"kitchen"
     },
     {
         "id": "10",
@@ -106,7 +115,8 @@ export const kitchenData = [{
         "model": "Handheld Mixer",
         "price": "1400",
         "category": "Appliances",
-        "description": "A handheld mixer with multiple speed settings for blending, whipping, and mixing."
+        "description": "A handheld mixer with multiple speed settings for blending, whipping, and mixing.",
+        "data":"kitchen"
     },
     {
         "id": "11",
@@ -117,7 +127,8 @@ export const kitchenData = [{
         "model": "Classic Winter Frost",
         "price": "1600",
         "category": "Dining",
-        "description": "A durable and lightweight dish set suitable for everyday dining and special occasions."
+        "description": "A durable and lightweight dish set suitable for everyday dining and special occasions.",
+        "data":"kitchen"
     },
     {
         "id": "12",
@@ -128,6 +139,7 @@ export const kitchenData = [{
         "model": "Programmable Slow Cooker",
         "price": "1400",
         "category": "Appliances",
-        "description": "A programmable slow cooker for convenient and flavorful cooking."
+        "description": "A programmable slow cooker for convenient and flavorful cooking.",
+        "data":"kitchen"
     }
 ]

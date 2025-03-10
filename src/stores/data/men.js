@@ -7,7 +7,8 @@ export const menData = [{
         "model": "Sporty Tee",
         "price": "2,000",
         "category": "Clothing",
-        "description": "A comfortable and stylish sporty t-shirt with moisture-wicking fabric."
+        "description": "A comfortable and stylish sporty t-shirt with moisture-wicking fabric.",
+        
     },
     {
         "id": "2",

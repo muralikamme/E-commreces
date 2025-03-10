@@ -1,7 +1,7 @@
 export const speakerData = [
     {
         "id": 1,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743235/4_lbk7zg.jpg",
         "brand": "Bose",
         "model": "SoundLink Revolve",
@@ -11,7 +11,7 @@ export const speakerData = [
     },
     {
         "id": 2,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743233/1_bbhrcn.jpg",
         "brand": "Sonos",
         "model": "One SL",
@@ -21,7 +21,7 @@ export const speakerData = [
     },
     {
         "id": 3,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743232/6_ftkjts.jpg",
         "brand": "JBL",
         "model": "Flip 5",
@@ -31,7 +31,7 @@ export const speakerData = [
     },
     {
         "id": 4,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743230/7_yhwgv8.jpg",
         "brand": "Sony",
         "model": "SRS-XB43",
@@ -41,7 +41,7 @@ export const speakerData = [
     },
     {
         "id": 5,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743229/3_uwiknb.jpg",
         "brand": "Ultimate Ears",
         "model": "MEGABOOM 3",
@@ -51,7 +51,7 @@ export const speakerData = [
     },
     {
         "id": 6,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743227/2_fwqhcc.jpg",
         "brand": "Harman Kardon",
         "model": "Aura Studio 3",
@@ -61,7 +61,7 @@ export const speakerData = [
     },
     {
         "id": 7,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743229/3_uwiknb.jpg",
         "brand": "Anker",
         "model": "Soundcore Flare",
@@ -71,7 +71,7 @@ export const speakerData = [
     },
     {
         "id": 8,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743227/2_fwqhcc.jpg",
         "brand": "Marshall",
         "model": "Stanmore II",
@@ -81,7 +81,7 @@ export const speakerData = [
     },
     {
         "id": 9,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743227/5_s9tcbk.jpg",
         "brand": "Bose",
         "model": "Home Speaker 500",
@@ -91,7 +91,7 @@ export const speakerData = [
     },
     {
         "id": 10,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743224/11_dlaw4y.jpg",
         "brand": "Yamaha",
         "model": "MusicCast 20",
@@ -101,7 +101,7 @@ export const speakerData = [
     },
     {
         "id": 11,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743224/10_errmnb.jpg",
         "brand": "Bang & Olufsen",
         "model": "Beoplay A9",
@@ -111,7 +111,7 @@ export const speakerData = [
     },
     {
         "id": 12,
-        "product": "Speaker",
+        "product": "Speakers",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743219/12_parizv.jpg",
         "brand": "UE",
         "model": "BOOM 2",

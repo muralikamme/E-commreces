@@ -1,7 +1,7 @@
 export const mobileData = [{
 
         "id": "1",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._AC_UY218_.jpg",
         "company": "Apple",
         "model": "iPhone 13 Pro",
@@ -11,7 +11,7 @@ export const mobileData = [{
     },
     {
         "id": "2",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://m.media-amazon.com/images/I/61-E0V81kBL._AC_UY218_.jpg",
         "company": "Samsung",
         "model": "Galaxy Z Fold 3",
@@ -21,7 +21,7 @@ export const mobileData = [{
     },
     {
         "id": "3",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://m.media-amazon.com/images/I/31AH2nkqNhL._AC_UY218_.jpg",
         "company": "Google",
         "model": "Pixel 6",
@@ -31,7 +31,7 @@ export const mobileData = [{
     },
     {
         "id": "4",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://m.media-amazon.com/images/I/5155PFA2N+L._AC_UY218_.jpg",
         "company": "OnePlus",
         "model": "9 Pro",
@@ -41,7 +41,7 @@ export const mobileData = [{
     },
     {
         "id": "5",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://m.media-amazon.com/images/I/716FVMg72GS._AC_UY218_.jpg",
         "company": "Xiaomi",
         "model": "Mi 11 Ultra",
@@ -51,7 +51,7 @@ export const mobileData = [{
     },
     {
         "id": "6",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://m.media-amazon.com/images/I/51bu8fvlHQL._AC_UY218_.jpg",
         "company": "Sony",
         "model": "Xperia 1 III",
@@ -61,7 +61,7 @@ export const mobileData = [{
     },
     {
         "id": "7",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://rukminim2.flixcart.com/image/416/416/kfvfwy80/mobile/k/q/k/lg-g8x-lmg850emw-original-imafw8gedgv9vxtt.jpeg?q=70&crop=false",
         "company": "LG",
         "model": "G9 ThinQ",
@@ -71,7 +71,7 @@ export const mobileData = [{
     },
     {
         "id": "8",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://m.media-amazon.com/images/I/71zoUhd6fXL._AC_UY218_.jpg",
         "company": "Motorola",
         "model": "Edge 20",
@@ -81,7 +81,7 @@ export const mobileData = [{
     },
     {
         "id": "9",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://m.media-amazon.com/images/I/71K-b677qzL._AC_UY218_.jpg",
         "company": "Huawei",
         "model": "P50 Pro",
@@ -91,7 +91,7 @@ export const mobileData = [{
     },
     {
         "id": "10",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743179/16_y14zgf.jpg",
         "company": "Oppo",
         "model": "Find X5 Pro",
@@ -101,7 +101,7 @@ export const mobileData = [{
     },
     {
         "id": "11",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://images.ctfassets.net/wcfotm6rrl7u/1y8kEIqqIftCf9JXl3sY3Y/0f057d7a5742b9b431204a2cc3a93e0b/nokia-C22-charcoal-front_back-in.png",
         "company": "Nokia",
         "model": "8.4 5G",
@@ -111,7 +111,7 @@ export const mobileData = [{
     },
     {
         "id": "12",
-        "product": "Mobile",
+        "product": "Mobiles",
         "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733743166/8_lkoeg2.jpg",
         "company": "Realme",
         "model": "GT Master Edition",

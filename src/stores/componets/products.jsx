@@ -21,10 +21,10 @@ function Products (){
 
     return(
         <>
-        <Mobiles/>
-        <Computers/>
+        {/* <Mobiles/>
+        <Computers/> */}
         <Ac/>
-        <Fridge/>
+        {/* <Fridge/>
         <Furniture/>
         <Kitchen/>
         < Speaker/>
@@ -32,7 +32,7 @@ function Products (){
         <Watch/>
         <Men/>
         <Women/>
-        <Books/>
+        <Books/> */}
        
         </>
     )

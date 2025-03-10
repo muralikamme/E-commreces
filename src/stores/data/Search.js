@@ -1,4 +1,4 @@
-let SearchData=[{
+export let SearchData=[{
     "id": "1",
     "product": "Air Conditioner",
     "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742826/1_bzvqjw.jpg",
@@ -11,7 +11,7 @@ let SearchData=[{
 },
 {
     "id": "2",
-    "product": "AC Unit",
+    "product": "Air Conditioner",
     "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742825/3_kerz3b.jpg",
     "company": "Daikin",
     "model": "ClimateMaster Pro",
@@ -22,7 +22,7 @@ let SearchData=[{
 },
 {
     "id": "3",
-    "product": "Cooling System",
+    "product": "Air Conditioner",
     "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742824/2_mfufcu.jpg",
     "company": "Carrier",
     "model": "Arctic Breeze 300",
@@ -33,7 +33,7 @@ let SearchData=[{
 },
 {
     "id": "4",
-    "product": "Air Cooler",
+    "product": "Air Conditioner",
     "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742823/6_goxpzi.jpg",
     "company": "Honeywell",
     "model": "FrostFlow XL",
@@ -44,7 +44,7 @@ let SearchData=[{
 },
 {
     "id": "5",
-    "product": "Window AC",
+    "product": "Air Conditioner",
     "image": "https://res.cloudinary.com/dgnd4u54h/image/upload/v1733742820/7_wfaxhs.jpg",
     "company": "Whirlpool",
     "model": "ChillGuard 800",
