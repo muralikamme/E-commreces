@@ -51,6 +51,13 @@ import LoginPage from './stores/componets/loginp';
 import RegisterPage from './stores/componets/RegisterPage';
 
 
+// order conformation
+
+// import OrderConfirmation  from './stores/singles/OrderConfirmation';
+
+
+
+
 
 
 
@@ -121,6 +128,7 @@ const App = () => {
         <Route path="/Speakers/:id" element={<Speakersingle/>}/>
         <Route path="/Books/:id" element={<Booksingle/>}/>
         <Route path="/Ac/:id" element={<Acsingle/>}/>
+        {/* <Route path="/order-confirmation" element={<OrderConfirmation />} /> */}
 
       </Routes>
      
